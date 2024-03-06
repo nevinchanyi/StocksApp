@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		735ABD472B967EE10069EC65 /* StocksAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD462B967EE10069EC65 /* StocksAppApp.swift */; };
+		735ABD492B967EE10069EC65 /* StocksOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD482B967EE10069EC65 /* StocksOverviewView.swift */; };
+		735ABD4B2B967EE20069EC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735ABD4A2B967EE20069EC65 /* Assets.xcassets */; };
+		735ABD4E2B967EE20069EC65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735ABD4D2B967EE20069EC65 /* Preview Assets.xcassets */; };
+		735ABD552B97645A0069EC65 /* SearchStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD542B97645A0069EC65 /* SearchStockView.swift */; };
+		735ABD572B9777C60069EC65 /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD562B9777C60069EC65 /* StockDetailView.swift */; };
+		735ABD5A2B97C2860069EC65 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD592B97C2860069EC65 /* NetworkService.swift */; };
+		735ABD5C2B97C4A80069EC65 /* ListOfStocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD5B2B97C4A80069EC65 /* ListOfStocksView.swift */; };
+		735ABD622B97C5750069EC65 /* StockEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD612B97C5750069EC65 /* StockEndpoint.swift */; };
+		735ABD642B990EF30069EC65 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD632B990EF30069EC65 /* Extensions.swift */; };
+		735ABD662B990F5F0069EC65 /* StocksOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD652B990F5F0069EC65 /* StocksOverviewViewModel.swift */; };
+		735ABD682B990F780069EC65 /* ListOfStocksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD672B990F780069EC65 /* ListOfStocksViewModel.swift */; };
+		735ABD6A2B990F910069EC65 /* StockDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD692B990F910069EC65 /* StockDetailViewModel.swift */; };
+		735ABD6C2B990FEC0069EC65 /* SearchStockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735ABD6B2B990FEC0069EC65 /* SearchStockViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		735ABD432B967EE10069EC65 /* StocksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StocksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		735ABD462B967EE10069EC65 /* StocksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksAppApp.swift; sourceTree = "<group>"; };
+		735ABD482B967EE10069EC65 /* StocksOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksOverviewView.swift; sourceTree = "<group>"; };
+		735ABD4A2B967EE20069EC65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		735ABD4D2B967EE20069EC65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		735ABD542B97645A0069EC65 /* SearchStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStockView.swift; sourceTree = "<group>"; };
+		735ABD562B9777C60069EC65 /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
+		735ABD592B97C2860069EC65 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		735ABD5B2B97C4A80069EC65 /* ListOfStocksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfStocksView.swift; sourceTree = "<group>"; };
+		735ABD612B97C5750069EC65 /* StockEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockEndpoint.swift; sourceTree = "<group>"; };
+		735ABD632B990EF30069EC65 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		735ABD652B990F5F0069EC65 /* StocksOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksOverviewViewModel.swift; sourceTree = "<group>"; };
+		735ABD672B990F780069EC65 /* ListOfStocksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfStocksViewModel.swift; sourceTree = "<group>"; };
+		735ABD692B990F910069EC65 /* StockDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewModel.swift; sourceTree = "<group>"; };
+		735ABD6B2B990FEC0069EC65 /* SearchStockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStockViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		735ABD402B967EE10069EC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		735ABD3A2B967EE10069EC65 = {
+			isa = PBXGroup;
+			children = (
+				735ABD452B967EE10069EC65 /* StocksApp */,
+				735ABD442B967EE10069EC65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		735ABD442B967EE10069EC65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				735ABD432B967EE10069EC65 /* StocksApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		735ABD452B967EE10069EC65 /* StocksApp */ = {
+			isa = PBXGroup;
+			children = (
+				735ABD632B990EF30069EC65 /* Extensions.swift */,
+				735ABD462B967EE10069EC65 /* StocksAppApp.swift */,
+				735ABD582B97C2750069EC65 /* Services */,
+				735ABD5E2B97C4C40069EC65 /* SearchStock */,
+				735ABD5F2B97C4D50069EC65 /* StockDetail */,
+				735ABD5D2B97C4AB0069EC65 /* ListOfStocks */,
+				735ABD602B97C5220069EC65 /* StocksOverview */,
+				735ABD4A2B967EE20069EC65 /* Assets.xcassets */,
+				735ABD4C2B967EE20069EC65 /* Preview Content */,
+			);
+			path = StocksApp;
+			sourceTree = "<group>";
+		};
+		735ABD4C2B967EE20069EC65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				735ABD4D2B967EE20069EC65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		735ABD582B97C2750069EC65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				735ABD592B97C2860069EC65 /* NetworkService.swift */,
+				735ABD612B97C5750069EC65 /* StockEndpoint.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		735ABD5D2B97C4AB0069EC65 /* ListOfStocks */ = {
+			isa = PBXGroup;
+			children = (
+				735ABD5B2B97C4A80069EC65 /* ListOfStocksView.swift */,
+				735ABD672B990F780069EC65 /* ListOfStocksViewModel.swift */,
+			);
+			path = ListOfStocks;
+			sourceTree = "<group>";
+		};
+		735ABD5E2B97C4C40069EC65 /* SearchStock */ = {
+			isa = PBXGroup;
+			children = (
+				735ABD542B97645A0069EC65 /* SearchStockView.swift */,
+				735ABD6B2B990FEC0069EC65 /* SearchStockViewModel.swift */,
+			);
+			path = SearchStock;
+			sourceTree = "<group>";
+		};
+		735ABD5F2B97C4D50069EC65 /* StockDetail */ = {
+			isa = PBXGroup;
+			children = (
+				735ABD562B9777C60069EC65 /* StockDetailView.swift */,
+				735ABD692B990F910069EC65 /* StockDetailViewModel.swift */,
+			);
+			path = StockDetail;
+			sourceTree = "<group>";
+		};
+		735ABD602B97C5220069EC65 /* StocksOverview */ = {
+			isa = PBXGroup;
+			children = (
+				735ABD482B967EE10069EC65 /* StocksOverviewView.swift */,
+				735ABD652B990F5F0069EC65 /* StocksOverviewViewModel.swift */,
+			);
+			path = StocksOverview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		735ABD422B967EE10069EC65 /* StocksApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735ABD512B967EE20069EC65 /* Build configuration list for PBXNativeTarget "StocksApp" */;
+			buildPhases = (
+				735ABD3F2B967EE10069EC65 /* Sources */,
+				735ABD402B967EE10069EC65 /* Frameworks */,
+				735ABD412B967EE10069EC65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StocksApp;
+			productName = StocksApp;
+			productReference = 735ABD432B967EE10069EC65 /* StocksApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		735ABD3B2B967EE10069EC65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					735ABD422B967EE10069EC65 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 735ABD3E2B967EE10069EC65 /* Build configuration list for PBXProject "StocksApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 735ABD3A2B967EE10069EC65;
+			productRefGroup = 735ABD442B967EE10069EC65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				735ABD422B967EE10069EC65 /* StocksApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		735ABD412B967EE10069EC65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735ABD4E2B967EE20069EC65 /* Preview Assets.xcassets in Resources */,
+				735ABD4B2B967EE20069EC65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		735ABD3F2B967EE10069EC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735ABD5A2B97C2860069EC65 /* NetworkService.swift in Sources */,
+				735ABD492B967EE10069EC65 /* StocksOverviewView.swift in Sources */,
+				735ABD682B990F780069EC65 /* ListOfStocksViewModel.swift in Sources */,
+				735ABD6C2B990FEC0069EC65 /* SearchStockViewModel.swift in Sources */,
+				735ABD5C2B97C4A80069EC65 /* ListOfStocksView.swift in Sources */,
+				735ABD642B990EF30069EC65 /* Extensions.swift in Sources */,
+				735ABD622B97C5750069EC65 /* StockEndpoint.swift in Sources */,
+				735ABD472B967EE10069EC65 /* StocksAppApp.swift in Sources */,
+				735ABD6A2B990F910069EC65 /* StockDetailViewModel.swift in Sources */,
+				735ABD572B9777C60069EC65 /* StockDetailView.swift in Sources */,
+				735ABD552B97645A0069EC65 /* SearchStockView.swift in Sources */,
+				735ABD662B990F5F0069EC65 /* StocksOverviewViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		735ABD4F2B967EE20069EC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		735ABD502B967EE20069EC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		735ABD522B967EE20069EC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StocksApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L26R3QCRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StocksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		735ABD532B967EE20069EC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StocksApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L26R3QCRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StocksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		735ABD3E2B967EE10069EC65 /* Build configuration list for PBXProject "StocksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735ABD4F2B967EE20069EC65 /* Debug */,
+				735ABD502B967EE20069EC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		735ABD512B967EE20069EC65 /* Build configuration list for PBXNativeTarget "StocksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735ABD522B967EE20069EC65 /* Debug */,
+				735ABD532B967EE20069EC65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 735ABD3B2B967EE10069EC65 /* Project object */;
+}
